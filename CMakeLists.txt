@@ -10,4 +10,4 @@ add_subdirectory(level2-chat)      # I/O 多路复用 + 广播
 add_subdirectory(level3-tictactoe)   # 游戏状态机 + 匹配 + 回合制协议
 add_subdirectory(level4-pong)        # 游戏主循环 + 实时同步 + 碰撞检测
 add_subdirectory(level5-tanks)        # 多实体系统 + 射击碰撞 + 重生
-# add_subdirectory(level6-mini-mmo)
+add_subdirectory(level6-mini-mmo)       # AOI + 空间哈希 + 持久化
