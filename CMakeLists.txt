@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # 添加各子项目
 add_subdirectory(level1-echo)
-# add_subdirectory(level2-chat)    # 后续阶段逐步启用
+add_subdirectory(level2-chat)      # I/O 多路复用 + 广播
 # add_subdirectory(level3-tictactoe)
 # add_subdirectory(level4-pong)
 # add_subdirectory(level5-tanks)
